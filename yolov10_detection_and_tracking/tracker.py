@@ -6,7 +6,7 @@ class Tracker:
     self.object_tracker = DeepSort(
         max_age=4,
         n_init=2,
-        nms_max_overlap=0.3,
+        nms_max_overlap=None,
         max_cosine_distance=0.5,
         nn_budget=None,
         override_track_class=None,
